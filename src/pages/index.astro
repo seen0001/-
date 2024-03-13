@@ -1,0 +1,36 @@
+---
+import "../styles/style.css";
+import Card from"../components/Card.astro";
+import Navigation from "../components/Navigation.astro";
+import Button from "../components/Button.astro";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+
+	</head>
+	<body>
+		<Navigation />
+		<h1>Astro</h1>
+		<main class="card">
+			<Button variant="primary" size="small">TEXT</Button>
+			<Button variant="secondary" size="medium">TEXT</Button>
+			<Button variant="secondary" size="large">TEXT</Button>
+
+			<!-- <Card header="Hej Verden">
+<img src="public/cph_light_3.jpeg" alt="cph light">
+<button>Klik her</button>
+			</Card>
+
+						<Card header="Hej Verden">
+							<button>Klik her</button>
+<img src="public/cph_light_4.jpg" alt="cph light">
+			</Card> -->
+		</main>
+	</body>
+</html>
